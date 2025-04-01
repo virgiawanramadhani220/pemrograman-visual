@@ -1,0 +1,17 @@
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\bin\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.exe
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\bin\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.deps.json
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\bin\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.runtimeconfig.json
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\bin\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.dll
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\bin\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.pdb
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.Form1.resources
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.Properties.Resources.resources
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.csproj.GenerateResource.cache
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.AssemblyInfoInputs.cache
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.AssemblyInfo.cs
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.csproj.CoreCompileInputs.cache
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.dll
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\refint\ApliksiDataBeratBadanPekerja.dll
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.pdb
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ApliksiDataBeratBadanPekerja.genruntimeconfig.cache
+C:\Users\ACER J2\source\repos\ApliksiDataBeratBadanPekerja\obj\Debug\net9.0-windows\ref\ApliksiDataBeratBadanPekerja.dll
