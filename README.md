@@ -1,7 +1,10 @@
-Aplikasi Pengelolaan Data Informasi
+![{2380BE63-8FE0-4389-83D1-3DBF6EBDF876}](https://github.com/user-attachments/assets/a73fcf25-3fc5-4cc9-8e3c-39e6d38fb3d1)
+
+
+#Aplikasi Pengelolaan Data Informasi
 Aplikasi ini adalah aplikasi berbasis Windows Forms yang dibangun dengan menggunakan bahasa pemrograman C# dan SQL Server. Aplikasi ini memungkinkan pengguna untuk mengelola data informasi seperti nama, umur, berat badan, dan tinggi badan dalam database SQL. Aplikasi ini memiliki fitur untuk menambah, mengedit, menghapus, dan menampilkan data dari database.
 
-Fitur Aplikasi
+#Fitur Aplikasi
 Menyimpan Data
 
 Pengguna dapat memasukkan data baru berupa Nama, Umur, Berat Badan, dan Tinggi Badan.
@@ -22,16 +25,13 @@ Menghapus Data
 
 Pengguna dapat menghapus data berdasarkan Nama yang dimasukkan. Data yang dihapus akan dihapus dari tabel Informasi di database.
 
-Teknologi yang Digunakan
+#Teknologi yang Digunakan
 Bahasa Pemrograman: C#
-
 Platform: Windows Forms (WinForms)
-
 Database: SQL Server
-
 SQL: Untuk operasi CRUD (Create, Read, Update, Delete)
 
-Instalasi
+#Instalasi
 Persyaratan Sistem
 
 Pastikan Anda memiliki SQL Server yang terinstal di sistem Anda.
@@ -52,13 +52,13 @@ Edit
 SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-83VQSOJ9;Initial Catalog=DataInformasi;TrustServerCertificate=True;Integrated Security=True;");
 Pastikan database yang disebutkan dalam string koneksi (DataInformasi) sudah ada di SQL Server Anda dan tabel Informasi sudah dibuat dengan struktur yang sesuai.
 
-Menjalankan Aplikasi
+#Menjalankan Aplikasi
 
 Setelah pengaturan selesai, tekan tombol Start di Visual Studio untuk menjalankan aplikasi.
 
 Aplikasi akan terbuka dan Anda bisa mulai menggunakan fitur-fitur yang tersedia.
 
-Struktur Database
+#Struktur Database
 Tabel Informasi di database DataInformasi harus memiliki struktur sebagai berikut:
 
 
@@ -90,5 +90,5 @@ Masukkan Nama yang datanya ingin dihapus.
 
 Klik tombol Hapus untuk menghapus data dari database.
 
-Kontak
+#Kontak
 Jika Anda memiliki pertanyaan atau masalah terkait aplikasi ini, Anda bisa menghubungi pengembang melalui email di [your-email@example.com].
