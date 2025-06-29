@@ -7,7 +7,7 @@ Repositori ini berisi proyek aplikasi desktop sederhana **"Informasi Pekerja"** 
 
 ### 🔐 FormLogin
 Form ini digunakan untuk proses autentikasi sebelum pengguna dapat mengakses data pekerja.
-![{6A2C1A3F-8852-4F18-BB6F-94DD4C080747}](https://github.com/user-attachments/assets/9ad19b16-36b3-4846-854f-c0d1c86b8262)
+![{D6030F8D-7E32-4617-964E-6A71F0E501B2}](https://github.com/user-attachments/assets/66d8b3e1-3cbd-409e-9492-f2ab402fed56)
 
 
 **Fitur:**
