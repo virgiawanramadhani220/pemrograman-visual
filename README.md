@@ -1,94 +1,44 @@
-![{2380BE63-8FE0-4389-83D1-3DBF6EBDF876}](https://github.com/user-attachments/assets/a73fcf25-3fc5-4cc9-8e3c-39e6d38fb3d1)
+
+# Aplikasi Informasi Pekerja
+
+Repositori ini berisi proyek aplikasi desktop sederhana **"Informasi Pekerja"** yang dibuat menggunakan **Windows Forms (WinForms)** dengan bahasa pemrograman **C#**. Aplikasi ini digunakan untuk menyimpan dan mengelola informasi dasar pekerja seperti nama, umur, berat badan, dan tinggi badan.
+
+## 📌 Struktur Form
+
+### 🔐 FormLogin
+Form ini digunakan untuk proses autentikasi sebelum pengguna dapat mengakses data pekerja.
+![{6A2C1A3F-8852-4F18-BB6F-94DD4C080747}](https://github.com/user-attachments/assets/9ad19b16-36b3-4846-854f-c0d1c86b8262)
 
 
-#Aplikasi Pengelolaan Data Informasi
-Aplikasi ini adalah aplikasi berbasis Windows Forms yang dibangun dengan menggunakan bahasa pemrograman C# dan SQL Server. Aplikasi ini memungkinkan pengguna untuk mengelola data informasi seperti nama, umur, berat badan, dan tinggi badan dalam database SQL. Aplikasi ini memiliki fitur untuk menambah, mengedit, menghapus, dan menampilkan data dari database.
+**Fitur:**
+- Input `USERNAME` dan `PASSWORD`
+- Tombol `Login` untuk validasi
 
-#Fitur Aplikasi
-Menyimpan Data
+### 📋 FormUtama (Form Informasi Pekerja)
+Form utama yang digunakan untuk manajemen data pekerja.
+![{CE4023B1-FD5A-4A8E-A4DA-34EE4D411BA5}](https://github.com/user-attachments/assets/df2438d8-b6bc-4c72-856d-219452fab47a)
 
-Pengguna dapat memasukkan data baru berupa Nama, Umur, Berat Badan, dan Tinggi Badan.
+**Field yang Dapat Diisi:**
+- Nama
+- Umur
+- Berat Badan
+- Tinggi Badan
 
-Data yang dimasukkan akan disimpan ke dalam database SQL di tabel Informasi.
+**Fitur Tombol:**
+- `SIMPAN` – Menyimpan data pekerja baru
+- `TAMPILKAN` – Menampilkan seluruh data yang telah tersimpan
+- `UPDATE` – Mengedit/memperbarui data yang dipilih
+- `DELETE` – Menghapus data yang dipilih
+- `CARI` – Mencari data berdasarkan nama atau kata kunci
 
-Menampilkan Data
+**Tampilan Tabel:**
+- Menampilkan daftar pekerja dalam bentuk tabel/grid di bagian bawah form
 
-Pengguna dapat melihat semua data yang tersimpan dalam tabel Informasi di dalam database.
+---
 
-Data akan ditampilkan dalam bentuk tabel pada DataGridView.
+## 🚀 Cara Menjalankan Aplikasi
 
-Mengupdate Data
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/virgiawanramadhani220/pemrograman-visual.git
 
-Pengguna dapat mengupdate data berdasarkan Nama yang dimasukkan. Jika data ditemukan, data akan diupdate dengan informasi yang baru.
-
-Menghapus Data
-
-Pengguna dapat menghapus data berdasarkan Nama yang dimasukkan. Data yang dihapus akan dihapus dari tabel Informasi di database.
-
-#Teknologi yang Digunakan
-Bahasa Pemrograman: C#
-Platform: Windows Forms (WinForms)
-Database: SQL Server
-SQL: Untuk operasi CRUD (Create, Read, Update, Delete)
-
-#Instalasi
-Persyaratan Sistem
-
-Pastikan Anda memiliki SQL Server yang terinstal di sistem Anda.
-
-Pastikan koneksi database sudah benar sesuai dengan konfigurasi yang ada pada aplikasi.
-
-Langkah Instalasi
-
-Clone atau download repository ini ke komputer Anda.
-
-Buka proyek ini menggunakan Visual Studio.
-
-Sesuaikan koneksi database pada kode program, khususnya di bagian string koneksi:
-
-csharp
-Salin
-Edit
-SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-83VQSOJ9;Initial Catalog=DataInformasi;TrustServerCertificate=True;Integrated Security=True;");
-Pastikan database yang disebutkan dalam string koneksi (DataInformasi) sudah ada di SQL Server Anda dan tabel Informasi sudah dibuat dengan struktur yang sesuai.
-
-#Menjalankan Aplikasi
-
-Setelah pengaturan selesai, tekan tombol Start di Visual Studio untuk menjalankan aplikasi.
-
-Aplikasi akan terbuka dan Anda bisa mulai menggunakan fitur-fitur yang tersedia.
-
-#Struktur Database
-Tabel Informasi di database DataInformasi harus memiliki struktur sebagai berikut:
-
-
-Nama Kolom	Tipe Data
-Nama	VARCHAR
-Umur	INT
-BeratBadan	FLOAT
-TinggiBadan	FLOAT
-Cara Penggunaan
-Menyimpan Data:
-
-Masukkan Nama, Umur, Berat Badan, dan Tinggi Badan pada kolom yang sesuai.
-
-Klik tombol Simpan untuk menyimpan data ke dalam database.
-
-Menampilkan Data:
-
-Klik tombol Tampilkan Data untuk melihat semua data yang tersimpan dalam tabel Informasi.
-
-Mengupdate Data:
-
-Masukkan Nama yang datanya ingin diubah, dan perbarui informasi yang diperlukan.
-
-Klik tombol Update untuk menyimpan perubahan.
-
-Menghapus Data:
-
-Masukkan Nama yang datanya ingin dihapus.
-
-Klik tombol Hapus untuk menghapus data dari database.
-
-#Kontak
-Jika Anda memiliki pertanyaan atau masalah terkait aplikasi ini, Anda bisa menghubungi pengembang melalui email di [your-email@example.com].
